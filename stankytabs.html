@@ -76,6 +76,7 @@
                   <a onclick="sv1()" class="hbtn hb-border-bottom-br4 hpill"></i>Server 1</a>
                    <a onclick="sv2()" class="hbtn hb-border-bottom-br4 hpill"></i>Server 2</a>
                   <a onclick="sv3()" class="hbtn hb-border-bottom-br4 hpill"></i>Server 3</a>
+                 <a onclick="sv4()" class="hbtn hb-border-bottom-br4 hpill"></i>Server 4</a>
                 </main>
 
                 <script src="script.js"></script>
@@ -126,6 +127,21 @@
                     win.document.body.appendChild(iframe);
                     }
                     }
+  function sv4() {
+var win = window.open()
+//YOU CAN REPLACE THE LINK BELOW WITH ANYTHING YOU WANT! 
+var url = "https://ee1313.onrender.com"
+if (url) {
+var iframe = document.createElement("iframe")
+iframe.style.border = "none";
+iframe.style.width = "100%";
+iframe.style.height = "100%"
+win.document.body.style.margin = '0';
+iframe.style.margin = "0";
+iframe.src = url;
+win.document.body.appendChild(iframe);
+}
+  }
                 </script>  
                     <script>
                       var loader = document.getElementById("preloader")
